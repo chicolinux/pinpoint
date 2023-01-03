@@ -61,7 +61,7 @@ def check_dependencies():
     try:
         import sklearn
     except ImportError:
-        install_requires.append('sklearn')
+        install_requires.append('scikit-learn')
     try:
         import h5py
     except ImportError:
